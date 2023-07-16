@@ -1,3 +1,5 @@
+// require('dotenv').config(); 
+// add this code to help seed
 const express = require('express');
 const routes = require('./routes');
 // import sequelize connection
