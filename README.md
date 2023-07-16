@@ -5,7 +5,7 @@
 
   ## Description
 
-  This is a backend application that configures an express API to sequelize with a MYSQL database. This will allow users to perform CRUD operation on categories, products and tags. 
+  This is a backend application that configures an express API to sequelize with a MYSQL database. This will allow users to perform CRUD operation on categories, products and tags.
 
   ## Table of Contents 
 
@@ -27,12 +27,13 @@
 
   ## Installation
   
-  1) You need to clone is repo to your local machine
+  1) You need to clone this repo to your local machine
   2) Navigate to the project directory
   3) run npm install to install your dependencies
-  4) Enter SQL username and password ceredentials
-  5) run npm run seed
-  6) run node server.js
+  4) Make a .env file and enter your sql ceredentials there
+  5) Write mysql -u root -p in command line and then once logged in, enter source ./db/schema.sql
+  6) run npm run seed
+  7) run node server.js
 
   ## Usage
 
